@@ -1,0 +1,781 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 20 20
+Title "RP2040 Minimal Design Example"
+Date "2020-12-18"
+Rev "REV1"
+Comp "Raspberry Pi (Trading) Ltd"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_RaspberryPi_RP2040:RP2040 U2001
+U 1 1 5ED8F5D6
+P 7800 5700
+F 0 "U2001" H 6700 7650 50  0000 C CNN
+F 1 "RP2040" H 8750 3700 50  0000 C CNN
+F 2 "RP2040_minimal:RP2040-QFN-56" H 7050 5700 50  0001 C CNN
+F 3 "" H 7050 5700 50  0001 C CNN
+	1    7800 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2020
+U 1 1 5ED96B87
+P 5950 5800
+F 0 "C2020" H 6065 5846 50  0000 L CNN
+F 1 "15pF" H 6065 5755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5988 5650 50  0001 C CNN
+F 3 "~" H 5950 5800 50  0001 C CNN
+	1    5950 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C2021
+U 1 1 5ED98685
+P 5950 6200
+F 0 "C2021" H 6065 6246 50  0000 L CNN
+F 1 "15pF" H 6065 6155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5988 6050 50  0001 C CNN
+F 3 "~" H 5950 6200 50  0001 C CNN
+	1    5950 6200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6100 6200 6400 6200
+Wire Wire Line
+	6100 5800 6400 5800
+Wire Wire Line
+	6400 5850 6400 5800
+Wire Wire Line
+	6400 6150 6400 6200
+Connection ~ 6400 6200
+Wire Wire Line
+	6000 4600 6550 4600
+Wire Wire Line
+	6000 4700 6550 4700
+Wire Wire Line
+	6000 4800 6550 4800
+Wire Wire Line
+	6000 4900 6550 4900
+Wire Wire Line
+	6550 4450 6000 4450
+Wire Wire Line
+	6550 5050 6000 5050
+Wire Wire Line
+	9050 4500 9650 4500
+Text Label 9650 4400 2    50   ~ 0
+GPIO0
+Text Label 9650 4500 2    50   ~ 0
+GPIO1
+Wire Wire Line
+	9050 4600 9650 4600
+Wire Wire Line
+	9050 4700 9650 4700
+Wire Wire Line
+	9050 4800 9650 4800
+Wire Wire Line
+	9050 4900 9650 4900
+Wire Wire Line
+	9050 5000 9650 5000
+Wire Wire Line
+	9050 5100 9650 5100
+Wire Wire Line
+	9050 5200 9650 5200
+Wire Wire Line
+	9050 5300 9650 5300
+Wire Wire Line
+	9050 5400 9650 5400
+Wire Wire Line
+	9050 5500 9650 5500
+Wire Wire Line
+	9050 5600 9650 5600
+Wire Wire Line
+	9050 5700 9650 5700
+Wire Wire Line
+	9050 5800 9650 5800
+Wire Wire Line
+	9050 5900 9650 5900
+Wire Wire Line
+	9050 6000 9650 6000
+Wire Wire Line
+	9050 6100 9650 6100
+Wire Wire Line
+	9050 6200 9650 6200
+Wire Wire Line
+	9050 6300 9650 6300
+Wire Wire Line
+	9050 6400 9650 6400
+Wire Wire Line
+	9050 6500 9650 6500
+Wire Wire Line
+	9050 6600 9650 6600
+Wire Wire Line
+	9050 6700 9650 6700
+Wire Wire Line
+	9050 6800 9650 6800
+Wire Wire Line
+	9050 6900 9650 6900
+Wire Wire Line
+	9050 7100 9650 7100
+Wire Wire Line
+	9050 7200 9650 7200
+Wire Wire Line
+	9050 7300 9650 7300
+Wire Wire Line
+	9050 7400 9650 7400
+Wire Wire Line
+	7800 7700 7800 7800
+Text Label 9650 4600 2    50   ~ 0
+GPIO2
+Text Label 9650 4700 2    50   ~ 0
+GPIO3
+Text Label 9650 4800 2    50   ~ 0
+GPIO4
+Text Label 9650 4900 2    50   ~ 0
+GPIO5
+Text Label 9650 5000 2    50   ~ 0
+GPIO6
+Text Label 9650 5100 2    50   ~ 0
+GPIO7
+Text Label 9650 5200 2    50   ~ 0
+GPIO8
+Text Label 9650 5300 2    50   ~ 0
+GPIO9
+Text Label 9650 5400 2    50   ~ 0
+GPIO10
+Text Label 9650 5500 2    50   ~ 0
+GPIO11
+Text Label 9650 5600 2    50   ~ 0
+GPIO12
+Text Label 9650 5700 2    50   ~ 0
+GPIO13
+Text Label 9650 5800 2    50   ~ 0
+GPIO14
+Text Label 9650 5900 2    50   ~ 0
+GPIO15
+Text Label 9650 6000 2    50   ~ 0
+GPIO16
+Text Label 9650 6100 2    50   ~ 0
+GPIO17
+Text Label 9650 6200 2    50   ~ 0
+GPIO18
+Text Label 9650 6300 2    50   ~ 0
+GPIO19
+Text Label 9650 6400 2    50   ~ 0
+GPIO20
+Text Label 9650 6500 2    50   ~ 0
+GPIO21
+Text Label 9650 6600 2    50   ~ 0
+GPIO22
+Text Label 9650 6700 2    50   ~ 0
+GPIO23
+Text Label 9650 6800 2    50   ~ 0
+GPIO24
+Text Label 9650 6900 2    50   ~ 0
+GPIO25
+Text Label 9650 7100 2    50   ~ 0
+GPIO26_ADC0
+Text Label 9650 7200 2    50   ~ 0
+GPIO27_ADC1
+Text Label 9650 7300 2    50   ~ 0
+GPIO28_ADC2
+Text Label 9650 7400 2    50   ~ 0
+GPIO29_ADC3
+Text Label 6000 4450 0    50   ~ 0
+QSPI_SS
+Text Label 6000 5050 0    50   ~ 0
+QSPI_SCLK
+Text Label 6000 4600 0    50   ~ 0
+QSPI_SD0
+Text Label 6000 4700 0    50   ~ 0
+QSPI_SD1
+Text Label 6000 4800 0    50   ~ 0
+QSPI_SD2
+Text Label 6000 4900 0    50   ~ 0
+QSPI_SD3
+Wire Wire Line
+	9050 4100 9500 4100
+Wire Wire Line
+	9700 4100 10350 4100
+Wire Wire Line
+	9050 4000 9300 4000
+Wire Wire Line
+	9300 3800 9300 4000
+Text Label 10350 4100 2    50   ~ 0
+USB_D-
+Wire Wire Line
+	6550 6500 6000 6500
+Text Label 6000 6500 0    50   ~ 0
+RUN
+Wire Wire Line
+	6550 6950 6000 6950
+Wire Wire Line
+	6550 7050 6000 7050
+Text Label 6000 6950 0    50   ~ 0
+SWCLK
+Text Label 6000 7050 0    50   ~ 0
+SWD
+Wire Wire Line
+	7650 3700 7650 2400
+Wire Wire Line
+	7650 2400 7750 2400
+Wire Wire Line
+	8150 2400 8150 3700
+Wire Wire Line
+	7750 3700 7750 2400
+Connection ~ 7750 2400
+Wire Wire Line
+	7750 2400 7850 2400
+Wire Wire Line
+	7850 3700 7850 2400
+Connection ~ 7850 2400
+Wire Wire Line
+	7850 2400 7950 2400
+Wire Wire Line
+	7950 3700 7950 2400
+Connection ~ 7950 2400
+Wire Wire Line
+	7950 2400 8050 2400
+Wire Wire Line
+	8050 3700 8050 2400
+Connection ~ 8050 2400
+Wire Wire Line
+	8050 2400 8150 2400
+Wire Wire Line
+	8150 2400 8300 2400
+Connection ~ 8150 2400
+Wire Wire Line
+	8300 3700 8300 2400
+Wire Wire Line
+	7450 3700 7450 2400
+Wire Wire Line
+	7450 2400 7650 2400
+Connection ~ 7650 2400
+Wire Wire Line
+	7300 2500 7100 2500
+Connection ~ 7100 2500
+Wire Wire Line
+	7100 2500 7000 2500
+Connection ~ 7000 2500
+$Comp
+L Device:C C2048
+U 1 1 5EEEE897
+P 9500 2750
+F 0 "C2048" H 9615 2796 50  0000 L CNN
+F 1 "100nF" H 9615 2705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9538 2600 50  0001 C CNN
+F 3 "~" H 9500 2750 50  0001 C CNN
+	1    9500 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2001
+U 1 1 5EEF00BB
+P 9950 2750
+F 0 "C2001" H 10065 2796 50  0000 L CNN
+F 1 "100nF" H 10065 2705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9988 2600 50  0001 C CNN
+F 3 "~" H 9950 2750 50  0001 C CNN
+	1    9950 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2010
+U 1 1 5EEF0473
+P 10400 2750
+F 0 "C2010" H 10515 2796 50  0000 L CNN
+F 1 "100nF" H 10515 2705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10438 2600 50  0001 C CNN
+F 3 "~" H 10400 2750 50  0001 C CNN
+	1    10400 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2022
+U 1 1 5EEF0994
+P 10850 2750
+F 0 "C2022" H 10965 2796 50  0000 L CNN
+F 1 "100nF" H 10965 2705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10888 2600 50  0001 C CNN
+F 3 "~" H 10850 2750 50  0001 C CNN
+	1    10850 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2033
+U 1 1 5EEF89B3
+P 11300 2750
+F 0 "C2033" H 11415 2796 50  0000 L CNN
+F 1 "100nF" H 11415 2705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 11338 2600 50  0001 C CNN
+F 3 "~" H 11300 2750 50  0001 C CNN
+	1    11300 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2064
+U 1 1 5EEF89BD
+P 11750 2750
+F 0 "C2064" H 11865 2796 50  0000 L CNN
+F 1 "100nF" H 11865 2705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 11788 2600 50  0001 C CNN
+F 3 "~" H 11750 2750 50  0001 C CNN
+	1    11750 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2042
+U 1 1 5EEF89C7
+P 12200 2750
+F 0 "C2042" H 12315 2796 50  0000 L CNN
+F 1 "100nF" H 12315 2705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 12238 2600 50  0001 C CNN
+F 3 "~" H 12200 2750 50  0001 C CNN
+	1    12200 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2050
+U 1 1 5EF00505
+P 5450 2700
+F 0 "C2050" H 5565 2746 50  0000 L CNN
+F 1 "100nF" H 5565 2655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5488 2550 50  0001 C CNN
+F 3 "~" H 5450 2700 50  0001 C CNN
+	1    5450 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2023
+U 1 1 5EF0050F
+P 5900 2700
+F 0 "C2023" H 6015 2746 50  0000 L CNN
+F 1 "100nF" H 6015 2655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5938 2550 50  0001 C CNN
+F 3 "~" H 5900 2700 50  0001 C CNN
+	1    5900 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2045
+U 1 1 5EF07987
+P 6350 2700
+F 0 "C2045" H 6465 2746 50  0000 L CNN
+F 1 "2.2uF" H 6465 2655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6388 2550 50  0001 C CNN
+F 3 "~" H 6350 2700 50  0001 C CNN
+	1    6350 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2044
+U 1 1 5EF08170
+P 9000 2750
+F 0 "C2044" H 9115 2796 50  0000 L CNN
+F 1 "2.2uF" H 9115 2705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9038 2600 50  0001 C CNN
+F 3 "~" H 9000 2750 50  0001 C CNN
+	1    9000 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12200 2600 12200 2400
+Wire Wire Line
+	11750 2600 11750 2400
+Connection ~ 11750 2400
+Wire Wire Line
+	11750 2400 12200 2400
+Wire Wire Line
+	11300 2600 11300 2400
+Connection ~ 11300 2400
+Wire Wire Line
+	11300 2400 11750 2400
+Wire Wire Line
+	10850 2600 10850 2400
+Connection ~ 10850 2400
+Wire Wire Line
+	10850 2400 11300 2400
+Wire Wire Line
+	10400 2600 10400 2400
+Connection ~ 10400 2400
+Wire Wire Line
+	10400 2400 10850 2400
+Wire Wire Line
+	9950 2600 9950 2400
+Connection ~ 9950 2400
+Wire Wire Line
+	9950 2400 10400 2400
+Wire Wire Line
+	9500 2600 9500 2400
+Connection ~ 9500 2400
+Wire Wire Line
+	9500 2400 9950 2400
+Wire Wire Line
+	9500 2900 9500 3000
+Wire Wire Line
+	9950 2900 9950 3000
+Connection ~ 9950 3000
+Wire Wire Line
+	9950 3000 9500 3000
+Wire Wire Line
+	10400 2900 10400 3000
+Connection ~ 10400 3000
+Wire Wire Line
+	10400 3000 9950 3000
+Wire Wire Line
+	10850 2900 10850 3000
+Connection ~ 10850 3000
+Wire Wire Line
+	10850 3000 10400 3000
+Wire Wire Line
+	11300 2900 11300 3000
+Connection ~ 11300 3000
+Wire Wire Line
+	11300 3000 10850 3000
+Wire Wire Line
+	11750 2900 11750 3000
+Wire Wire Line
+	11750 3000 11300 3000
+Wire Wire Line
+	12200 2900 12200 3000
+Wire Wire Line
+	6350 2550 6350 2500
+Wire Wire Line
+	6350 2850 6350 3000
+Wire Wire Line
+	2150 5150 2600 5150
+Text Label 2150 5150 0    50   ~ 0
+QSPI_SCLK
+Text Label 2150 4950 0    50   ~ 0
+QSPI_SS
+Wire Wire Line
+	3350 4350 3350 4400
+Wire Wire Line
+	3350 4000 3100 4000
+Wire Wire Line
+	3350 4050 3350 4000
+$Comp
+L power:GND #PWR?
+U 1 1 5EDB5C1D
+P 3350 4400
+F 0 "#PWR?" H 3350 4150 50  0001 C CNN
+F 1 "GND" H 3500 4350 50  0000 C CNN
+F 2 "" H 3350 4400 50  0001 C CNN
+F 3 "" H 3350 4400 50  0001 C CNN
+	1    3350 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2008
+U 1 1 5EDB1AA1
+P 3350 4200
+F 0 "C2008" H 3465 4246 50  0000 L CNN
+F 1 "100nF" H 3465 4155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3388 4050 50  0001 C CNN
+F 3 "~" H 3350 4200 50  0001 C CNN
+	1    3350 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 4950 1250 4950
+$Comp
+L Memory_Flash:W25Q128JVS U2002
+U 1 1 5EDA5F2C
+P 3100 5050
+F 0 "U2002" H 2750 5450 50  0000 C CNN
+F 1 "W25Q128JVS" H 3400 4650 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" H 3100 5050 50  0001 C CNN
+F 3 "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf" H 3100 5050 50  0001 C CNN
+	1    3100 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 3800 9500 3800
+Text Label 10350 3800 2    50   ~ 0
+USB_D+
+Wire Wire Line
+	9700 3800 10350 3800
+Wire Wire Line
+	11750 3000 12200 3000
+Connection ~ 11750 3000
+$Comp
+L Device:Crystal Y2001
+U 1 1 5F0DD35C
+P 6400 6000
+F 0 "Y2001" V 6300 5700 50  0000 L CNN
+F 1 "12MHz" V 6500 5650 50  0000 L CNN
+F 2 "RP2040_minimal:Crystal_SMD_HC49-US" H 6400 6000 50  0001 C CNN
+F 3 "~" H 6400 6000 50  0001 C CNN
+	1    6400 6000
+	0    1    1    0   
+$EndComp
+Text Notes 6250 2350 0    50   ~ 0
+Make sure C8 is close to pin 45 of RP2040
+$Comp
+L Device:C C2004
+U 1 1 5F1AF96D
+P 12700 2750
+F 0 "C2004" H 12815 2796 50  0000 L CNN
+F 1 "10uF" H 12815 2705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 12738 2600 50  0001 C CNN
+F 3 "~" H 12700 2750 50  0001 C CNN
+	1    12700 2750
+	1    0    0    -1  
+$EndComp
+Text Notes 5000 5350 0    100  ~ 0
+Crystal
+Text Notes 1850 3900 0    100  ~ 0
+Flash
+Text Label 4250 4850 2    50   ~ 0
+QSPI_SD0
+Text Label 4250 4950 2    50   ~ 0
+QSPI_SD1
+Text Label 4250 5150 2    50   ~ 0
+QSPI_SD2
+Text Label 4250 5250 2    50   ~ 0
+QSPI_SD3
+Text Label 6500 5800 2    50   ~ 0
+XIN
+Text Label 6500 6200 2    50   ~ 0
+XOUT
+Connection ~ 6400 5800
+Wire Wire Line
+	3600 5250 4250 5250
+Wire Wire Line
+	3600 5150 4250 5150
+Wire Wire Line
+	3600 4850 4250 4850
+Wire Wire Line
+	3600 4950 4250 4950
+Text Notes 9950 3950 0    50   ~ 0
+Make sure R3 and R4 are close to RP2040
+Wire Bus Line
+	9750 7000 10500 7000
+Entry Wire Line
+	9750 4500 9650 4400
+Entry Wire Line
+	9750 4600 9650 4500
+Entry Wire Line
+	9750 4700 9650 4600
+Entry Wire Line
+	9750 4800 9650 4700
+Entry Wire Line
+	9750 4900 9650 4800
+Entry Wire Line
+	9750 5000 9650 4900
+Entry Wire Line
+	9750 5100 9650 5000
+Entry Wire Line
+	9750 5200 9650 5100
+Entry Wire Line
+	9750 5300 9650 5200
+Entry Wire Line
+	9750 5400 9650 5300
+Entry Wire Line
+	9750 5500 9650 5400
+Entry Wire Line
+	9750 5600 9650 5500
+Entry Wire Line
+	9750 5700 9650 5600
+Entry Wire Line
+	9750 5800 9650 5700
+Entry Wire Line
+	9750 5900 9650 5800
+Entry Wire Line
+	9750 6000 9650 5900
+Entry Wire Line
+	9750 6100 9650 6000
+Entry Wire Line
+	9750 6200 9650 6100
+Entry Wire Line
+	9750 6300 9650 6200
+Entry Wire Line
+	9750 6400 9650 6300
+Entry Wire Line
+	9750 6500 9650 6400
+Entry Wire Line
+	9750 6600 9650 6500
+Entry Wire Line
+	9750 6700 9650 6600
+Entry Wire Line
+	9750 6800 9650 6700
+Entry Wire Line
+	9750 6900 9650 6800
+Entry Wire Line
+	9750 7000 9650 6900
+Wire Wire Line
+	9050 4400 9650 4400
+Text HLabel 10500 7000 2    50   BiDi ~ 0
+GPIO[0..25]
+Text HLabel 9650 7100 2    50   BiDi ~ 0
+GPIO26_ADC0
+Text HLabel 9650 7200 2    50   BiDi ~ 0
+GPIO27_ADC1
+Text HLabel 9650 7300 2    50   BiDi ~ 0
+GPIO28_ADC2
+Text HLabel 9650 7400 2    50   BiDi ~ 0
+GPIO29_ADC3
+Text HLabel 1250 4950 0    50   BiDi ~ 0
+FLASH_~USB
+Wire Wire Line
+	3100 4000 3100 4650
+Wire Wire Line
+	1950 4950 2600 4950
+Text HLabel 6000 6500 0    50   Input ~ 0
+RUN
+Text HLabel 6000 6950 0    50   Input ~ 0
+SWCLK
+Text HLabel 6000 7050 0    50   BiDi ~ 0
+SWDIO
+$Comp
+L KwanSystems:RP2 R2046
+U 1 1 61625571
+P 9600 3800
+F 0 "R2046" H 9600 3984 45  0000 C CNN
+F 1 "27" H 9600 3900 45  0000 C CNN
+F 2 "KwanSystems:R_Array_Convex_2x0402" H 9655 3950 20  0001 C CNN
+F 3 "" H 10025 3500 60  0001 C CNN
+	1    9600 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L KwanSystems:RP2 R2046
+U 2 1 61625A57
+P 9600 4100
+F 0 "R2046" H 9600 4284 45  0000 C CNN
+F 1 "27" H 9600 4200 45  0000 C CNN
+F 2 "KwanSystems:R_Array_Convex_2x0402" H 9655 4250 20  0001 C CNN
+F 3 "" H 10025 3800 60  0001 C CNN
+	2    9600 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L KwanSystems:RP4 R102
+U 3 1 61638687
+P 1850 4950
+F 0 "R102" H 1850 5134 45  0000 C CNN
+F 1 "RP4" H 1850 5050 45  0000 C CNN
+F 2 "KwanSystems:R_Array_Convex_4x0402" H 1905 5100 20  0001 C CNN
+F 3 "" H 2275 4650 60  0001 C CNN
+	3    1850 4950
+	1    0    0    -1  
+$EndComp
+Text HLabel 10350 4100 2    50   BiDi ~ 0
+USB_DM
+Text HLabel 10350 3800 2    50   BiDi ~ 0
+USB_DP
+Wire Wire Line
+	5450 2550 5450 2500
+Wire Wire Line
+	5450 2500 5900 2500
+Connection ~ 6350 2500
+Wire Wire Line
+	5900 2550 5900 2500
+Connection ~ 5900 2500
+Wire Wire Line
+	5900 2500 6350 2500
+Wire Wire Line
+	6350 3000 5900 3000
+Wire Wire Line
+	5900 3000 5900 2850
+Connection ~ 6350 3000
+Wire Wire Line
+	5900 3000 5450 3000
+Wire Wire Line
+	5450 3000 5450 2850
+Connection ~ 5900 3000
+Wire Wire Line
+	6350 2500 7000 2500
+Text Notes 5450 3700 0    50   ~ 0
+1.1V Capacitor Bank
+Wire Wire Line
+	8450 2600 8450 3700
+Wire Wire Line
+	8300 2400 9500 2400
+Text Notes 10550 3100 0    50   ~ 0
+3.3V Capacitor Bank
+Text HLabel 12700 2400 2    50   Input ~ 0
+3V3
+Text HLabel 9000 2600 2    50   Input ~ 0
+ADC_AVDD
+Text Notes 8900 3400 0    50   ~ 0
+ADC Capacitor Bank
+Text Label 8550 2400 0    50   ~ 0
+3V3
+Text Label 6500 2500 0    50   ~ 0
+1V1
+Connection ~ 8300 2400
+Wire Wire Line
+	8450 2600 9000 2600
+Wire Wire Line
+	7300 2500 7300 3700
+Wire Wire Line
+	7100 2500 7100 3700
+Wire Wire Line
+	7000 2500 7000 3700
+Wire Wire Line
+	9500 3000 9000 3000
+Wire Wire Line
+	9000 3000 9000 2900
+Connection ~ 9500 3000
+Wire Wire Line
+	9000 3000 6350 3000
+Connection ~ 9000 3000
+Wire Wire Line
+	12700 2900 12700 3000
+Wire Wire Line
+	12700 3000 12200 3000
+Connection ~ 12200 3000
+Wire Wire Line
+	12200 2400 12700 2400
+Wire Wire Line
+	12700 2400 12700 2600
+Connection ~ 12200 2400
+Text HLabel 12700 3000 2    50   UnSpc ~ 0
+GND
+Connection ~ 5450 3000
+Wire Wire Line
+	7300 7800 7800 7800
+Wire Wire Line
+	7300 7700 7300 7800
+Wire Wire Line
+	5450 7800 7300 7800
+Wire Wire Line
+	5450 3000 5450 5450
+Connection ~ 7300 7800
+Wire Wire Line
+	6400 5800 6550 5800
+Wire Wire Line
+	6550 6000 6550 6200
+Wire Wire Line
+	6400 6200 6550 6200
+Wire Wire Line
+	5800 5800 5450 5800
+Connection ~ 5450 5800
+Wire Wire Line
+	5450 5800 5450 6200
+Wire Wire Line
+	5800 6200 5450 6200
+Connection ~ 5450 6200
+Wire Wire Line
+	5450 6200 5450 7800
+Wire Wire Line
+	3100 5450 5450 5450
+Connection ~ 5450 5450
+Wire Wire Line
+	5450 5450 5450 5800
+Wire Wire Line
+	3100 4000 3100 2400
+Wire Wire Line
+	3100 2400 7450 2400
+Wire Bus Line
+	9750 4500 9750 7000
+Connection ~ 3100 4000
+Connection ~ 7450 2400
+$EndSCHEMATC
