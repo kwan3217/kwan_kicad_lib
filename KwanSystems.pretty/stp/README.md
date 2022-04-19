@@ -7,3 +7,4 @@ STP models for use in Kicad 3D views
 * ML414H IV01E--3DModel-STEP-56544.STEP -- [Seiko ML414H surface mount rechargable battery](https://www.snapeda.com/parts/ML414H%20IV01E/Seiko%20Instruments/view-part/)
 * SMA_female_edge_6.5x6.5.step -- [SMA femal edge connector](https://grabcad.com/library/sma-female-edge-mount-1)
 * u-blox ZED-F9P.stp -- [u-blox ZED-F9x GPS/IMU chipset](https://grabcad.com/library/u-blox-zed-f9p-1)
+* C-12402072.stp -- [Amphenol 12402072E512A USB 3.0 Type C mid-mount connector](https://www.amphenol-cs.com/usb-type-c-receptacle-12402072e512a.html)
