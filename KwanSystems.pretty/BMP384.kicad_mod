@@ -1,6 +1,6 @@
 (footprint "BMP384" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62580B63)
+  (tedit 625E54A9)
   (attr smd)
   (fp_text reference "REF**" (at 0 -0.6 unlocked) (layer "F.SilkS") hide
     (effects (font (size 0.1 0.1) (thickness 0.015)))
@@ -26,9 +26,9 @@
   (pad "8" smd rect (at 0.7575 0.5) (size 0.285 0.27) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a2d78bcc-0124-4392-a7ce-3a51ea6bd391))
   (pad "9" smd rect (at 0.7575 0) (size 0.285 0.27) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9c494602-f94f-4d6f-a714-5022d099c06c))
   (pad "10" smd rect (at 0.7575 -0.5) (size 0.285 0.27) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 400770b9-9c30-4385-b3ef-7ec95dac11b1))
-  (model ":KWAN_SYSTEMS:wrl/BMP180.wrl"
+  (model "/home/jeppesen/workspace/rollercoasterometer/kwan_kicad_lib/KwanSystems.pretty/stp/bmp384.step"
     (offset (xyz 0 0 0))
-    (scale (xyz 200 200 200))
-    (rotate (xyz -90 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
   )
 )
