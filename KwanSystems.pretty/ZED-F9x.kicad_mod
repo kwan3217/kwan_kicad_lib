@@ -1,6 +1,6 @@
 (footprint "ZED-F9x" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 6256F98D)
+  (tedit 625DE07A)
   (fp_text reference "U3" (at -11 -9) (layer "F.SilkS")
     (effects (font (size 0.470611 0.470611) (thickness 0.037389)) (justify left))
     (tstamp e695bdea-3621-4935-b341-7b177bf5972d)
@@ -858,7 +858,7 @@
     (solder_mask_margin 0.1016) (tstamp ec165009-ae0e-4269-81bb-29a8b488f880))
   (pad "PAD" smd rect (at -3.15 3.1) (size 1.1 1.1) (layers "F.Cu" "F.Mask")
     (solder_mask_margin 0.1016) (tstamp eccea76a-5325-422a-8652-3e0011be2865))
-  (model "${KIPRJMOD}/u-blox ZED-F9P.stp"
+  (model "/home/jeppesen/workspace/rollercoasterometer/kwan_kicad_lib/KwanSystems.pretty/stp/u-blox ZED-F9P.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
