@@ -91,7 +91,7 @@
     (solder_mask_margin 0.1016) (tstamp 7e4d3212-cc99-4995-b4e8-36de9d327218))
   (pad "2" smd rect (at 2.54 0) (size 1.5 4) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.1016) (tstamp 98491634-81f3-4187-8790-0057a02d1410))
-  (model "${KIPRJMOD}/SMA_female_edge_6.5x6.5.step"
+  (model "stp/SMA_female_edge_6.5x6.5.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

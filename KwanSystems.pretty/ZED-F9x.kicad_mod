@@ -858,7 +858,7 @@
     (solder_mask_margin 0.1016) (tstamp ec165009-ae0e-4269-81bb-29a8b488f880))
   (pad "PAD" smd rect (at -3.15 3.1) (size 1.1 1.1) (layers "F.Cu" "F.Mask")
     (solder_mask_margin 0.1016) (tstamp eccea76a-5325-422a-8652-3e0011be2865))
-  (model "/home/jeppesen/workspace/rollercoasterometer/kwan_kicad_lib/KwanSystems.pretty/stp/u-blox ZED-F9P.stp"
+  (model "stp/u-blox ZED-F9P.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

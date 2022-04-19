@@ -1,6 +1,6 @@
 (footprint "USB_C_Amphenol_MidMount" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 625DE22A)
+  (tedit 625E5BB3)
   (attr smd)
   (fp_text reference "REF**" (at -2.41 -0.73 unlocked) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
@@ -56,7 +56,7 @@
   (pad "S1" thru_hole oval (at 6.25 -1.65) (size 1.35 2.3) (drill oval 0.75 1.7) (layers *.Cu *.Mask "F.Paste") (tstamp d127318f-e6ee-4aa6-8794-a9c8d7148677))
   (pad "S1" thru_hole oval (at 6.25 -7.4) (size 1.35 2.1) (drill oval 0.75 1.5) (layers *.Cu *.Mask "F.Paste") (tstamp d51356de-7a08-4f61-8d59-ec2de526438e))
   (pad "S1" thru_hole oval (at -6.25 -4.35) (size 1.35 2.3) (drill oval 0.75 1.7) (layers *.Cu *.Mask "F.Paste") (tstamp fc4f2d85-95e6-494e-ad8e-549d8dc8a347))
-  (model "${KIPRJMOD}/../kwan_kicad_lib/KwanSystems.pretty/stp/C-12402072.stp"
+  (model "stp/C-12402072.stp"
     (offset (xyz -3 1.5 0.2))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 180))
