@@ -1,0 +1,1 @@
+/usr/share/kicad/plugins/kicad_netlist_reader.py
