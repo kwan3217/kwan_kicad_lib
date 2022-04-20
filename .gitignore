@@ -2,5 +2,8 @@
 *bak
 *.bck
 *.dcm
+__pycache__/
+*.pyc
+
 
 
