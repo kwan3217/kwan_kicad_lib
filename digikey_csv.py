@@ -97,6 +97,7 @@ grouped = net.groupComponents(components)
 
 # Output component information organized by group, aka as collated:
 item = 0
+row=[]
 for group in grouped:
     del row[:]
     refs = ""
