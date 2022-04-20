@@ -30,11 +30,7 @@ def myEqu(self, other):
     value, the part name and the footprint.
     """
     result = True
-    if self.getValue() != other.getValue():
-        result = False
-    elif self.getPartName() != other.getPartName():
-        result = False
-    elif self.getFootprint() != other.getFootprint():
+    if self.getField("Digikey") != other.getField("Digikey"):
         result = False
 
     return result
