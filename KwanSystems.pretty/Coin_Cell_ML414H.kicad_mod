@@ -1,6 +1,6 @@
 (footprint "Coin_Cell_ML414H" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 6255EBCA)
+  (tedit 625EE3C0)
   (descr "<h3>SEIKO ML414H-IV01E Reflowable Lithium Battery</h3>\n\n<p>\nML414H is a rechargeable, coin type battery with features\nsuch as Pb-free reflowable (Peak temperature: 260 C) and\nhigh temperature heat resistance.\n</p>\n\n<ul>\n<li>3V</li>\n<li>1mAH</li>\n<li>4.8mm Diamter</li>\n</ul>")
   (attr through_hole)
   (fp_text reference "BT1" (at -1.905004 -1.270003) (layer "F.SilkS")
@@ -12,16 +12,6 @@
     (tstamp f0968845-6199-4936-b4d5-0fae4b281246)
   )
   (fp_poly (pts
-      (xy 0.28 -2.68)
-      (xy 2.68 -2.68)
-      (xy 2.68 -0.28)
-    ) (layer "F.Cu") (width 0) (fill solid) (tstamp 2cdeb1c5-1375-4e5b-8892-c762bfa47d9d))
-  (fp_poly (pts
-      (xy 0.28 -2.68)
-      (xy 2.68 -2.68)
-      (xy 2.68 -0.28)
-    ) (layer "F.Paste") (width 0) (fill solid) (tstamp b0bdb865-9543-45f5-9ebe-ece7e81b047c))
-  (fp_poly (pts
       (xy -1.5 2.7)
       (xy 2.7 2.7)
       (xy 2.7 1)
@@ -29,11 +19,6 @@
     ) (layer "F.Paste") (width 0) (fill solid) (tstamp b91088c8-41ad-462b-850d-0aee29dea38b))
   (fp_arc (start -1.752599 1.625602) (mid -2.167967 -1.045069) (end 0.1778 -2.3876) (layer "F.SilkS") (width 0.1524) (tstamp 07be9cff-69b7-4e21-96dd-9200d8d4a286))
   (fp_arc (start 2.3876 -0.3302) (mid 2.42159 0.252132) (end 2.260599 0.8128) (layer "F.SilkS") (width 0.1524) (tstamp 45146678-7558-4594-a645-8943813c3d2c))
-  (fp_poly (pts
-      (xy 0.28 -2.68)
-      (xy 2.68 -2.68)
-      (xy 2.68 -0.28)
-    ) (layer "F.Mask") (width 0) (fill solid) (tstamp 7b440b82-40a1-42d6-81ee-34bfc4ed1570))
   (fp_poly (pts
       (xy -1.5 2.7)
       (xy 2.7 2.7)
@@ -52,8 +37,16 @@
       (xy 2.4 1.01)
       (xy -1.1 1.01)
     ) (layer "F.Fab") (width 0) (fill solid) (tstamp bf81ccde-995a-44cd-86f1-7b2f77ca287a))
-  (pad "1" smd rect (at 2.022 -2.032) (size 1 1) (layers "F.Cu" "F.Mask")
-    (solder_mask_margin 0.1016) (tstamp 4b513dad-98b8-4504-a571-5fb758d3d8c0))
+  (pad "1" smd custom (at 1.7 -1.7) (size 0.1 0.1) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.1016)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+          (xy -1.4 -1)
+          (xy 1 -1)
+          (xy 1 1.4)
+        ) (width 0) (fill yes))
+    ) (tstamp 4b513dad-98b8-4504-a571-5fb758d3d8c0))
   (pad "2" smd rect (at 0.6 1.85) (size 4.2 1.7) (layers "F.Cu" "F.Mask")
     (solder_mask_margin 0.1016) (tstamp 2a371f75-cb79-4392-a550-963766e85795))
   (model "stp/ML414H IV01E--3DModel-STEP-56544.STEP"
