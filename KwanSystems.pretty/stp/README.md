@@ -8,3 +8,5 @@ STP models for use in Kicad 3D views
 * SMA_female_edge_6.5x6.5.step -- [SMA femal edge connector](https://grabcad.com/library/sma-female-edge-mount-1)
 * u-blox ZED-F9P.stp -- [u-blox ZED-F9x GPS/IMU chipset](https://grabcad.com/library/u-blox-zed-f9p-1)
 * C-12402072.stp -- [Amphenol 12402072E512A USB 3.0 Type C mid-mount connector](https://www.amphenol-cs.com/usb-type-c-receptacle-12402072e512a.html)
+* JS5208.stp -- [E-switch JS5208 navigation button](https://www.digikey.com/en/products/detail/e-switch/JS5208/1739634)
+
