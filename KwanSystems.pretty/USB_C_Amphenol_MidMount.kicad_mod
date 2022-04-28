@@ -1,6 +1,6 @@
 (footprint "USB_C_Amphenol_MidMount" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62656004)
+  (tedit 62683C8D)
   (attr smd)
   (fp_text reference "REF**" (at -2.41 -0.73 unlocked) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
@@ -22,9 +22,12 @@
   (fp_line (start 4.699 0) (end 4.699 -5.461) (layer "User.1") (width 0.12) (tstamp 99a3dbfb-1c73-4c78-be7c-ded34e626f42))
   (fp_arc (start 4.699 -6.477) (mid 5.207 -5.969) (end 4.699 -5.461) (layer "User.1") (width 0.001) (tstamp a4841002-0681-4077-bc23-ac3371dcea83))
   (fp_arc (start -4.699 -5.461) (mid -5.207 -5.969) (end -4.699 -6.477) (layer "User.1") (width 0.001) (tstamp c5797bc0-ad19-4043-b9ae-e99453be0d6f))
-  (pad "" np_thru_hole circle (at -4.25 -7.55) (size 0.85 0.85) (drill 0.85) (layers F&B.Cu *.Mask) (tstamp 20e5627d-98f3-42e2-b022-a05b56e0f484))
-  (pad "" np_thru_hole oval (at 0 -5.969) (size 10.414 1.016) (drill oval 10.414 1.016) (layers F&B.Cu *.Mask) (tstamp 29aa7255-4535-4402-9651-8cd792feb408))
-  (pad "" np_thru_hole oval (at 4.25 -7.55) (size 1.15 0.85) (drill oval 1.15 0.85) (layers F&B.Cu *.Mask) (tstamp b20b2870-c374-4576-bf81-da21dc4a2003))
+  (pad "" np_thru_hole circle (at -4.249999 -7.55) (size 0.85 0.85) (drill 0.85) (layers F&B.Cu *.Mask)
+    (clearance 0.1524) (tstamp 20e5627d-98f3-42e2-b022-a05b56e0f484))
+  (pad "" np_thru_hole oval (at 0 -5.969) (size 10.414 1.016) (drill oval 10.414 1.016) (layers F&B.Cu *.Mask)
+    (clearance 0.1524) (tstamp 29aa7255-4535-4402-9651-8cd792feb408))
+  (pad "" np_thru_hole oval (at 4.249999 -7.55) (size 1.15 0.85) (drill oval 1.15 0.85) (layers F&B.Cu *.Mask)
+    (clearance 0.1524) (zone_connect 0) (tstamp b20b2870-c374-4576-bf81-da21dc4a2003))
   (pad "A1" smd rect (at -2.625 -8.75) (size 0.27 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4de8b7be-07f1-404c-8a88-482f6237258c))
   (pad "A2" smd rect (at -2.125 -8.75) (size 0.27 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp dbab2451-e34a-494c-91c9-ee351eb29eb3))
   (pad "A3" smd rect (at -1.625 -8.75) (size 0.27 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6f5ffd7e-5080-443b-90ee-c731c918df31))
@@ -57,7 +60,7 @@
   (pad "S1" thru_hole oval (at 6.25 -1.65) (size 1.35 2.3) (drill oval 0.75 1.7) (layers *.Cu *.Mask "F.Paste") (tstamp d127318f-e6ee-4aa6-8794-a9c8d7148677))
   (pad "S1" thru_hole oval (at 6.25 -7.4) (size 1.35 2.1) (drill oval 0.75 1.5) (layers *.Cu *.Mask "F.Paste") (tstamp d51356de-7a08-4f61-8d59-ec2de526438e))
   (pad "S1" thru_hole oval (at -6.25 -4.35) (size 1.35 2.3) (drill oval 0.75 1.7) (layers *.Cu *.Mask "F.Paste") (tstamp fc4f2d85-95e6-494e-ad8e-549d8dc8a347))
-  (model "stp/C-12402072.stp"
+  (model ":KWAN_KICAD_LIB:stp/C-12402072.stp"
     (offset (xyz -3 1.5 0.2))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 180))
