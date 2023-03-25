@@ -231,7 +231,7 @@
     (pin "1" (uuid f90caa5f-5f42-45ad-a609-2978101a199b))
     (pin "2" (uuid 24936d44-8096-48d7-87c9-b6b60e97c2be))
     (instances
-      (project "rollercoasterometer_hat_sf"
+      (project "shipometer"
         (path "/ba8024d5-8c9d-4001-9766-31acf13004f5/9cdef0f4-d69e-4ec7-af65-50b2b694ea2b"
           (reference "C501") (unit 1)
         )
@@ -278,7 +278,7 @@
     (pin "1" (uuid fac06a88-1c67-4350-94ae-76401d4721ff))
     (pin "2" (uuid 2fc08006-7e4a-413a-9164-54fbbae6d95b))
     (instances
-      (project "rollercoasterometer_hat_sf"
+      (project "shipometer"
         (path "/ba8024d5-8c9d-4001-9766-31acf13004f5/9cdef0f4-d69e-4ec7-af65-50b2b694ea2b"
           (reference "C505") (unit 1)
         )
@@ -319,7 +319,7 @@
     (pin "4" (uuid 6369864f-cef2-4026-93c3-52ef35b6e684))
     (pin "5" (uuid 4777de0c-73ac-4913-929c-4a383aaf28f2))
     (instances
-      (project "rollercoasterometer_hat_sf"
+      (project "shipometer"
         (path "/ba8024d5-8c9d-4001-9766-31acf13004f5/9cdef0f4-d69e-4ec7-af65-50b2b694ea2b"
           (reference "U501") (unit 1)
         )
