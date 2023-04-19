@@ -238,7 +238,9 @@
         (path "/ba8024d5-8c9d-4001-9766-31acf13004f5/9cdef0f4-d69e-4ec7-af65-50b2b694ea2b"
           (reference "C501") (unit 1)
         )
-        (path "/ba8024d5-8c9d-4001-9766-31acf13004f5/a0e68691-2daf-412f-ae99-bc89f5381007/f626bd87-a9c2-4f08-af29-d00a1c06cd07"
+      )
+      (project "stamp_tester"
+        (path "/bc94e760-f8ab-4abe-bffc-be4558aa8a18/f626bd87-a9c2-4f08-af29-d00a1c06cd07"
           (reference "C801") (unit 1)
         )
       )
@@ -291,7 +293,9 @@
         (path "/ba8024d5-8c9d-4001-9766-31acf13004f5/9cdef0f4-d69e-4ec7-af65-50b2b694ea2b"
           (reference "C505") (unit 1)
         )
-        (path "/ba8024d5-8c9d-4001-9766-31acf13004f5/a0e68691-2daf-412f-ae99-bc89f5381007/f626bd87-a9c2-4f08-af29-d00a1c06cd07"
+      )
+      (project "stamp_tester"
+        (path "/bc94e760-f8ab-4abe-bffc-be4558aa8a18/f626bd87-a9c2-4f08-af29-d00a1c06cd07"
           (reference "C805") (unit 1)
         )
       )
@@ -338,7 +342,9 @@
         (path "/ba8024d5-8c9d-4001-9766-31acf13004f5/9cdef0f4-d69e-4ec7-af65-50b2b694ea2b"
           (reference "U501") (unit 1)
         )
-        (path "/ba8024d5-8c9d-4001-9766-31acf13004f5/a0e68691-2daf-412f-ae99-bc89f5381007/f626bd87-a9c2-4f08-af29-d00a1c06cd07"
+      )
+      (project "stamp_tester"
+        (path "/bc94e760-f8ab-4abe-bffc-be4558aa8a18/f626bd87-a9c2-4f08-af29-d00a1c06cd07"
           (reference "U801") (unit 1)
         )
       )
