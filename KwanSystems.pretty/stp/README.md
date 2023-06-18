@@ -11,4 +11,6 @@ STP models for use in Kicad 3D views
 * JS5208.stp -- [E-switch JS5208 navigation button](https://www.digikey.com/en/products/detail/e-switch/JS5208/1739634)
 * JS1400BFQ.stp -- [E-switch JS1400 navigation button](https://www.digikey.com/en/products/detail/e-switch/JS1400BFQ/4028190)
 * Raspberry Pi 4.STEP -- [Raspberry Pi 4 model B](https://grabcad.com/library/raspberry-pi-4-model-b-1)
+* BME680.step -- [Pressure/Temperature/Humidity/Gas sensor](https://grabcad.com/library/bme680-1)
+* qwiic.step -- qwiic connector, JST SM04B. Original from [grabcad](https://grabcad.com/library/jst-sh-smd-connectors-1), SMxxB-SRSS-TB/SM04B-SRSS-TB.step, changed to black and renamed.
 
