@@ -234,6 +234,11 @@
     (pin "1" (uuid f90caa5f-5f42-45ad-a609-2978101a199b))
     (pin "2" (uuid 24936d44-8096-48d7-87c9-b6b60e97c2be))
     (instances
+      (project "Precision23"
+        (path "/9151f981-b383-4946-8df4-92ef46ef2206/b677ca37-64a4-4c57-a7aa-64d766dbf7fc"
+          (reference "C601") (unit 1)
+        )
+      )
       (project "shipometer"
         (path "/ba8024d5-8c9d-4001-9766-31acf13004f5/9cdef0f4-d69e-4ec7-af65-50b2b694ea2b"
           (reference "C501") (unit 1)
@@ -289,6 +294,11 @@
     (pin "1" (uuid fac06a88-1c67-4350-94ae-76401d4721ff))
     (pin "2" (uuid 2fc08006-7e4a-413a-9164-54fbbae6d95b))
     (instances
+      (project "Precision23"
+        (path "/9151f981-b383-4946-8df4-92ef46ef2206/b677ca37-64a4-4c57-a7aa-64d766dbf7fc"
+          (reference "C605") (unit 1)
+        )
+      )
       (project "shipometer"
         (path "/ba8024d5-8c9d-4001-9766-31acf13004f5/9cdef0f4-d69e-4ec7-af65-50b2b694ea2b"
           (reference "C505") (unit 1)
@@ -308,7 +318,7 @@
     (property "Reference" "U501" (at 123.19 91.44 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "TCR2EF 5.0V" (at 144.78 91.44 0)
+    (property "Value" "TCR2EF 3.3V" (at 144.78 91.44 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at 146.05 102.87 0)
@@ -317,19 +327,19 @@
     (property "Datasheet" "https://toshiba.semicon-storage.com/info/TCR2EF50_datasheet_en_20190620.pdf?did=13794&prodName=TCR2EF50" (at 132.08 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Digikey" "TCR2EF50LM(CTCT-ND" (at 129.54 96.52 0)
+    (property "Digikey" "TCR2EF33LM(CTCT-ND" (at 129.54 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Purpose" "Regulator 3.3V->1.8V" (at 129.54 96.52 0)
+    (property "Purpose" "Regulator VUSB->3.3V" (at 129.54 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mouser" "998-MIC5317-1.8YD5TR" (at 129.54 96.52 0)
+    (property "Mouser" "998-MIC5317-3.3YD5TR" (at 129.54 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Number on hand" "2" (at 129.54 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Part Number" "MIC5317-1.8YD5-TR" (at 129.54 96.52 0)
+    (property "Part Number" "MIC5317-3.3YD5-TR" (at 129.54 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7930b728-277d-4038-952b-3db069b80271))
@@ -338,6 +348,11 @@
     (pin "4" (uuid 6369864f-cef2-4026-93c3-52ef35b6e684))
     (pin "5" (uuid 4777de0c-73ac-4913-929c-4a383aaf28f2))
     (instances
+      (project "Precision23"
+        (path "/9151f981-b383-4946-8df4-92ef46ef2206/b677ca37-64a4-4c57-a7aa-64d766dbf7fc"
+          (reference "U601") (unit 1)
+        )
+      )
       (project "shipometer"
         (path "/ba8024d5-8c9d-4001-9766-31acf13004f5/9cdef0f4-d69e-4ec7-af65-50b2b694ea2b"
           (reference "U501") (unit 1)

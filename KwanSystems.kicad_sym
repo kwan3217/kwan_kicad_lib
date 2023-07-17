@@ -8450,7 +8450,7 @@
     (property "Value" "RESISTOR" (at -1.27 -2.54 0)
       (effects (font (size 1.143 1.143)) (justify left bottom))
     )
-    (property "Footprint" "KwanSystems:SMD_0402" (at 1.397 3.81 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 1.397 3.81 0)
       (effects (font (size 0.508 0.508)) hide)
     )
     (property "Datasheet" "" (at 10.795 -7.62 0)
