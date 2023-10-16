@@ -4,6 +4,8 @@
 *.dcm
 __pycache__/
 *.pyc
+/KwanSystems.pretty/stp/*
+fp-info-cache
 
 
 
