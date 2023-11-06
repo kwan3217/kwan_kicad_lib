@@ -350,6 +350,9 @@
   (junction (at 111.76 66.04) (diameter 0) (color 0 0 0 0)
     (uuid 315be45f-5eee-4b73-80bd-9e45b9b86bd8)
   )
+  (junction (at 119.38 58.42) (diameter 0) (color 0 0 0 0)
+    (uuid 3757adfe-eb22-4082-8f25-a48af8d72dcf)
+  )
   (junction (at 120.65 50.8) (diameter 0) (color 0 0 0 0)
     (uuid 69c7c681-b689-4833-a634-009d84fab7de)
   )
@@ -365,17 +368,21 @@
     (stroke (width 0) (type default))
     (uuid 18de2808-7f08-4484-a9fc-44daf322318f)
   )
+  (wire (pts (xy 119.38 55.88) (xy 119.38 58.42))
+    (stroke (width 0) (type default))
+    (uuid 28b07a32-4e34-46c6-bd28-1817131a0b60)
+  )
   (wire (pts (xy 111.76 68.58) (xy 125.73 68.58))
     (stroke (width 0) (type default))
     (uuid 4e1f2b52-ee9f-4ba6-b916-cd1a9b4d671b)
   )
-  (wire (pts (xy 119.38 55.88) (xy 119.38 88.9))
-    (stroke (width 0) (type default))
-    (uuid 5253b490-d8a1-4c25-af30-adb7daedebff)
-  )
   (wire (pts (xy 111.76 66.04) (xy 125.73 66.04))
     (stroke (width 0) (type default))
     (uuid 9d6cb00f-b4b0-4a9e-a4ac-bdc844f6a65e)
+  )
+  (wire (pts (xy 119.38 58.42) (xy 119.38 88.9))
+    (stroke (width 0) (type default))
+    (uuid a4d31dc2-981c-4c51-8e59-120fabd78296)
   )
   (wire (pts (xy 120.65 50.8) (xy 127 50.8))
     (stroke (width 0) (type default))
@@ -456,13 +463,13 @@
   (symbol (lib_id "Connector:USB_C_Receptacle_USB2.0") (at 96.52 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f4d574f)
-    (property "Reference" "J201" (at 99.2378 44.0182 0)
+    (property "Reference" "J301" (at 99.2378 44.0182 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "USB_C_Receptacle_USB2.0" (at 99.2378 46.3296 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "KwanSystems:GCTUSBTypeC_PTH" (at 100.33 66.04 0)
+    (property "Footprint" "KwanSystems:USB_C_Receptacle_GCT_USB4510" (at 100.33 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" (at 100.33 66.04 0)
@@ -489,6 +496,11 @@
     (pin "B9" (uuid 614523c2-f98b-44ea-b41b-b48f767413f3))
     (pin "S1" (uuid a9719346-d56b-4677-8727-602c49af17d1))
     (instances
+      (project "Naninator32u4"
+        (path "/ba1a019e-3acf-4680-bf69-4a14e392b0f8/db3c602a-4181-4312-837d-35d7c3586816"
+          (reference "J301") (unit 1)
+        )
+      )
       (project "Naninator"
         (path "/d855b238-2442-4e65-b657-8cbe334057c3/00000000-0000-0000-0000-00005f5cf167/00000000-0000-0000-0000-00005f690bf7"
           (reference "J201") (unit 1)
@@ -519,6 +531,11 @@
     )
     (pin "1" (uuid 4d2f6930-7b86-4b22-98e0-b94901ae9f14))
     (instances
+      (project "Naninator32u4"
+        (path "/ba1a019e-3acf-4680-bf69-4a14e392b0f8/db3c602a-4181-4312-837d-35d7c3586816"
+          (reference "#FLG0102") (unit 1)
+        )
+      )
       (project "Naninator"
         (path "/d855b238-2442-4e65-b657-8cbe334057c3/00000000-0000-0000-0000-00005f5cf167/00000000-0000-0000-0000-00005f690bf7"
           (reference "#FLG0102") (unit 1)
@@ -532,19 +549,19 @@
     )
   )
 
-  (symbol (lib_id "KwanSystems:RP2") (at 116.84 58.42 0) (unit 1)
+  (symbol (lib_id "KwanSystems:RP2") (at 116.84 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000606098fa)
-    (property "Reference" "R2201" (at 123.19 58.42 0)
+    (property "Reference" "R301" (at 123.19 55.88 0)
       (effects (font (size 1.143 1.143)))
     )
     (property "Value" "5.1k" (at 128.27 57.15 0)
       (effects (font (size 1.143 1.143)))
     )
-    (property "Footprint" "KwanSystems:R_Array_Convex_2x0402" (at 118.237 54.61 0)
+    (property "Footprint" "KwanSystems:R_Array_Convex_2x0402" (at 118.237 52.07 0)
       (effects (font (size 0.508 0.508)) hide)
     )
-    (property "Datasheet" "" (at 127.635 66.04 0)
+    (property "Datasheet" "" (at 127.635 63.5 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (pin "1" (uuid e8c5ff25-e88d-441b-8fe8-f671d3e55394))
@@ -552,6 +569,11 @@
     (pin "2" (uuid b6dbf383-e457-4cc0-88eb-396e9d4d1ded))
     (pin "3" (uuid 22514f58-f5b3-4e55-9351-3cdcd2c7ab3e))
     (instances
+      (project "Naninator32u4"
+        (path "/ba1a019e-3acf-4680-bf69-4a14e392b0f8/db3c602a-4181-4312-837d-35d7c3586816"
+          (reference "R301") (unit 1)
+        )
+      )
       (project "Naninator"
         (path "/d855b238-2442-4e65-b657-8cbe334057c3/00000000-0000-0000-0000-00005f5cf167/00000000-0000-0000-0000-00005f690bf7"
           (reference "R2201") (unit 1)
@@ -565,19 +587,19 @@
     )
   )
 
-  (symbol (lib_id "KwanSystems:RP2") (at 116.84 55.88 0) (unit 2)
+  (symbol (lib_id "KwanSystems:RP2") (at 116.84 58.42 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006060a5e7)
-    (property "Reference" "R2201" (at 123.19 55.88 0)
+    (property "Reference" "R301" (at 123.19 58.42 0)
       (effects (font (size 1.143 1.143)))
     )
     (property "Value" "5.1k" (at 128.27 57.15 0)
       (effects (font (size 1.143 1.143)))
     )
-    (property "Footprint" "KwanSystems:R_Array_Convex_2x0402" (at 118.237 52.07 0)
+    (property "Footprint" "KwanSystems:R_Array_Convex_2x0402" (at 118.237 54.61 0)
       (effects (font (size 0.508 0.508)) hide)
     )
-    (property "Datasheet" "" (at 127.635 63.5 0)
+    (property "Datasheet" "" (at 127.635 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (pin "1" (uuid aee2a064-a2b3-45c2-822e-33717130df28))
@@ -585,6 +607,11 @@
     (pin "2" (uuid 9d5b5ac6-55e7-4c5c-add9-cf808c17d947))
     (pin "3" (uuid f812cd81-687d-4a5e-86fb-8f7dc9ef18d2))
     (instances
+      (project "Naninator32u4"
+        (path "/ba1a019e-3acf-4680-bf69-4a14e392b0f8/db3c602a-4181-4312-837d-35d7c3586816"
+          (reference "R301") (unit 2)
+        )
+      )
       (project "Naninator"
         (path "/d855b238-2442-4e65-b657-8cbe334057c3/00000000-0000-0000-0000-00005f5cf167/00000000-0000-0000-0000-00005f690bf7"
           (reference "R2201") (unit 2)
