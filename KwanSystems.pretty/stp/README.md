@@ -13,4 +13,6 @@ STP models for use in Kicad 3D views
 * Raspberry Pi 4.STEP -- [Raspberry Pi 4 model B](https://grabcad.com/library/raspberry-pi-4-model-b-1)
 * BME680.step -- [Pressure/Temperature/Humidity/Gas sensor](https://grabcad.com/library/bme680-1)
 * qwiic.step -- qwiic connector, JST SM04B. Original from [grabcad](https://grabcad.com/library/jst-sh-smd-connectors-1), SMxxB-SRSS-TB/SM04B-SRSS-TB.step, changed to black and renamed.
+* USB4154
+* USB4510
 
