@@ -42,14 +42,14 @@
     (stroke (width 0.01) (type solid)) (layer "F.Fab") (tstamp ed26be70-9ed1-4dc9-b24b-c86002e26544))
   (fp_line (start 0.9 0.25) (end -0.9 0.25)
     (stroke (width 0.01) (type solid)) (layer "F.Fab") (tstamp 234bd5b7-2060-43a9-8802-b7f7da47c0ff))
-  (fp_arc (start -0.43 -0.82) (mid -0.304056 -1.124055) (end 0 -1.25)
+  (fp_arc (start -0.43 -0.82) (mid -0.304056 -1.124056) (end 0 -1.25)
     (stroke (width 0.01) (type default)) (layer "F.Fab") (tstamp 960cb8fa-9f2a-448b-898f-71a919cff318))
-  (fp_arc (start 0 -1.25) (mid 0.304055 -1.124056) (end 0.43 -0.82)
+  (fp_arc (start 0 -1.25) (mid 0.304056 -1.124056) (end 0.43 -0.82)
     (stroke (width 0.01) (type default)) (layer "F.Fab") (tstamp 7173a7c9-4986-4775-836c-677d1160f82a))
   (pad "1" smd rect (at -0.9 0) (size 1 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3002a589-8b14-4808-a34b-752c5b453ef4))
   (pad "2" smd rect (at 0.9 0) (size 1 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 55a0b20b-2657-4218-8997-a187b27845d2))
-  (model "${KIPRJMOD}/APDA1806.IGS"
-    (offset (xyz -274.1 -0.25 148.65))
+  (model "${KIPRJMOD}/kwan_kicad_lib/KwanSystems.pretty/igs/APDA1806.IGS"
+    (offset (xyz -274.066 -0.254 148.59))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 0))
   )
