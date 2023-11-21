@@ -219,7 +219,7 @@
     (property "Digikey" "399-C0603C105K4PAC7411CT-ND" (at 114.3 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Purpose" "1.8V Regulator Input" (at 114.3 105.41 0)
+    (property "Purpose" "3.3V Regulator Input" (at 114.3 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Mouser" "80-C0603C105K4PAC" (at 114.3 105.41 0)
@@ -235,7 +235,7 @@
     (pin "2" (uuid 24936d44-8096-48d7-87c9-b6b60e97c2be))
     (instances
       (project "Precision23"
-        (path "/9151f981-b383-4946-8df4-92ef46ef2206/b677ca37-64a4-4c57-a7aa-64d766dbf7fc"
+        (path "/9151f981-b383-4946-8df4-92ef46ef2206/b9b5a9b9-9a45-4bb4-8a5d-f3809553447a/b677ca37-64a4-4c57-a7aa-64d766dbf7fc"
           (reference "C601") (unit 1)
         )
       )
@@ -270,7 +270,7 @@
     (property "Digikey" "399-C0603C105K4PAC7411CT-ND" (at 144.78 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Purpose" "1.8V Regulator output" (at 144.78 109.22 0)
+    (property "Purpose" "3.3V Regulator output" (at 144.78 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Dielectric" "X5R" (at 144.78 109.22 0)
@@ -295,7 +295,7 @@
     (pin "2" (uuid 2fc08006-7e4a-413a-9164-54fbbae6d95b))
     (instances
       (project "Precision23"
-        (path "/9151f981-b383-4946-8df4-92ef46ef2206/b677ca37-64a4-4c57-a7aa-64d766dbf7fc"
+        (path "/9151f981-b383-4946-8df4-92ef46ef2206/b9b5a9b9-9a45-4bb4-8a5d-f3809553447a/b677ca37-64a4-4c57-a7aa-64d766dbf7fc"
           (reference "C605") (unit 1)
         )
       )
@@ -349,7 +349,7 @@
     (pin "5" (uuid 4777de0c-73ac-4913-929c-4a383aaf28f2))
     (instances
       (project "Precision23"
-        (path "/9151f981-b383-4946-8df4-92ef46ef2206/b677ca37-64a4-4c57-a7aa-64d766dbf7fc"
+        (path "/9151f981-b383-4946-8df4-92ef46ef2206/b9b5a9b9-9a45-4bb4-8a5d-f3809553447a/b677ca37-64a4-4c57-a7aa-64d766dbf7fc"
           (reference "U601") (unit 1)
         )
       )
