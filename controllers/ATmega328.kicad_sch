@@ -906,6 +906,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0b7d1a05-8ece-413d-b524-6f49a35f2033)
   )
+  (text "Cx06" (at 25.4 49.53 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 0d37d6cc-6b8f-41f1-b75d-8fc980461a55)
+  )
   (text "D0" (at 109.22 77.47 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 12e86e2e-be9c-4394-9e92-22fd8bcf15a9)
@@ -927,6 +931,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2922a2e6-56d8-4168-a18d-c0d0a6614649)
   )
+  (text "Cx04" (at 22.86 55.88 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 2ea170fb-7ba3-483b-9ba4-19e31a07da53)
+  )
   (text "PWM" (at 101.6 40.64 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 44dc6963-af48-4d35-ada0-6606076924ab)
@@ -943,10 +951,30 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 58346da1-3feb-4515-aa24-a40558fa0bf3)
   )
+  (text "Cx08" (at 130.81 115.57 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 5cbff825-3d27-4756-a0d0-5e6ddaabcaad)
+  )
+  (text "Sx29" (at 127 80.01 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 5e6e6a3c-d021-4dce-a8b8-1fd26ea106d8)
+  )
+  (text "Cx07" (at 142.24 115.57 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 60cf7057-88db-4df4-bb6f-4da366b39139)
+  )
+  (text "Yx07" (at 132.08 96.52 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 65295486-a3c2-47c9-8679-27548b6b9342)
+  )
   (text "VCC may be from 3.3V to 5.0V. It is technically only\nin-spec to run at 8MHz at 3.3V, and requires 5.0V to\nrun at 16MHz."
     (at 16.51 20.32 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 71e600f9-7c4d-4d52-8be8-d791aa3615f4)
+  )
+  (text "Cx18" (at 27.94 43.18 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 9443270b-cfc2-4ad6-b40c-f97383163e04)
   )
   (text "PWM" (at 101.6 38.1 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -972,13 +1000,25 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bdbd5e87-01f4-4531-bee9-619da1286862)
   )
+  (text "Cx20" (at 38.1 49.53 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid de418b2d-8fad-464d-a81c-72fcc3668130)
+  )
   (text "PWM" (at 104.14 83.82 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e1a6a07c-e95d-4422-b645-6d5af0849cfd)
   )
+  (text "Rx29" (at 125.73 64.77 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid efab12fb-1391-435e-8e95-5b3fbb98dca3)
+  )
   (text "PWM" (at 101.6 35.56 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f384c2ca-3082-49d5-bd6d-09449cf53e62)
+  )
+  (text "Ux01" (at 83.82 25.4 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f4d8117a-d3da-4e83-b9a3-6239bb164c9a)
   )
 
   (label "XTAL2" (at 135.89 87.63 270) (fields_autoplaced)
@@ -1148,7 +1188,7 @@
         )
       )
       (project "Precision23"
-        (path "/9151f981-b383-4946-8df4-92ef46ef2206/9f66be35-2744-413f-8b31-a996047a434b/84662bc9-aa4f-4f0d-8756-174283206cf9"
+        (path "/9151f981-b383-4946-8df4-92ef46ef2206/b9b5a9b9-9a45-4bb4-8a5d-f3809553447a/9407dcb2-4240-4949-9fc7-e511c818f8d4"
           (reference "C420") (unit 1)
         )
       )
@@ -1193,7 +1233,7 @@
         )
       )
       (project "Precision23"
-        (path "/9151f981-b383-4946-8df4-92ef46ef2206/9f66be35-2744-413f-8b31-a996047a434b/84662bc9-aa4f-4f0d-8756-174283206cf9"
+        (path "/9151f981-b383-4946-8df4-92ef46ef2206/b9b5a9b9-9a45-4bb4-8a5d-f3809553447a/9407dcb2-4240-4949-9fc7-e511c818f8d4"
           (reference "C418") (unit 1)
         )
       )
@@ -1238,7 +1278,7 @@
         )
       )
       (project "Precision23"
-        (path "/9151f981-b383-4946-8df4-92ef46ef2206/9f66be35-2744-413f-8b31-a996047a434b/84662bc9-aa4f-4f0d-8756-174283206cf9"
+        (path "/9151f981-b383-4946-8df4-92ef46ef2206/b9b5a9b9-9a45-4bb4-8a5d-f3809553447a/9407dcb2-4240-4949-9fc7-e511c818f8d4"
           (reference "C406") (unit 1)
         )
       )
@@ -1283,7 +1323,7 @@
         )
       )
       (project "Precision23"
-        (path "/9151f981-b383-4946-8df4-92ef46ef2206/9f66be35-2744-413f-8b31-a996047a434b/84662bc9-aa4f-4f0d-8756-174283206cf9"
+        (path "/9151f981-b383-4946-8df4-92ef46ef2206/b9b5a9b9-9a45-4bb4-8a5d-f3809553447a/9407dcb2-4240-4949-9fc7-e511c818f8d4"
           (reference "C404") (unit 1)
         )
       )
@@ -1330,7 +1370,7 @@
         )
       )
       (project "Precision23"
-        (path "/9151f981-b383-4946-8df4-92ef46ef2206/9f66be35-2744-413f-8b31-a996047a434b/84662bc9-aa4f-4f0d-8756-174283206cf9"
+        (path "/9151f981-b383-4946-8df4-92ef46ef2206/b9b5a9b9-9a45-4bb4-8a5d-f3809553447a/9407dcb2-4240-4949-9fc7-e511c818f8d4"
           (reference "Y407") (unit 1)
         )
       )
@@ -1345,10 +1385,10 @@
   (symbol (lib_id "Device:C_Small") (at 140.97 110.49 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000590e29c7)
-    (property "Reference" "C407" (at 140.716 112.268 0)
+    (property "Reference" "C407" (at 147.32 111.76 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "22pF" (at 140.716 108.458 0)
+    (property "Value" "22pF" (at 147.32 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 140.97 110.49 0)
@@ -1375,7 +1415,7 @@
         )
       )
       (project "Precision23"
-        (path "/9151f981-b383-4946-8df4-92ef46ef2206/9f66be35-2744-413f-8b31-a996047a434b/84662bc9-aa4f-4f0d-8756-174283206cf9"
+        (path "/9151f981-b383-4946-8df4-92ef46ef2206/b9b5a9b9-9a45-4bb4-8a5d-f3809553447a/9407dcb2-4240-4949-9fc7-e511c818f8d4"
           (reference "C407") (unit 1)
         )
       )
@@ -1420,7 +1460,7 @@
         )
       )
       (project "Precision23"
-        (path "/9151f981-b383-4946-8df4-92ef46ef2206/9f66be35-2744-413f-8b31-a996047a434b/84662bc9-aa4f-4f0d-8756-174283206cf9"
+        (path "/9151f981-b383-4946-8df4-92ef46ef2206/b9b5a9b9-9a45-4bb4-8a5d-f3809553447a/9407dcb2-4240-4949-9fc7-e511c818f8d4"
           (reference "C408") (unit 1)
         )
       )
@@ -1435,7 +1475,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 124.46 81.28 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000590e2a2b)
-    (property "Reference" "S429" (at 127.635 81.28 0)
+    (property "Reference" "S429" (at 129.54 81.28 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_SPST" (at 121.92 81.28 0)
@@ -1465,7 +1505,7 @@
         )
       )
       (project "Precision23"
-        (path "/9151f981-b383-4946-8df4-92ef46ef2206/9f66be35-2744-413f-8b31-a996047a434b/84662bc9-aa4f-4f0d-8756-174283206cf9"
+        (path "/9151f981-b383-4946-8df4-92ef46ef2206/b9b5a9b9-9a45-4bb4-8a5d-f3809553447a/9407dcb2-4240-4949-9fc7-e511c818f8d4"
           (reference "S429") (unit 1)
         )
       )
@@ -1510,7 +1550,7 @@
         )
       )
       (project "Precision23"
-        (path "/9151f981-b383-4946-8df4-92ef46ef2206/9f66be35-2744-413f-8b31-a996047a434b/84662bc9-aa4f-4f0d-8756-174283206cf9"
+        (path "/9151f981-b383-4946-8df4-92ef46ef2206/b9b5a9b9-9a45-4bb4-8a5d-f3809553447a/9407dcb2-4240-4949-9fc7-e511c818f8d4"
           (reference "R429") (unit 1)
         )
       )
@@ -1585,7 +1625,7 @@
         )
       )
       (project "Precision23"
-        (path "/9151f981-b383-4946-8df4-92ef46ef2206/9f66be35-2744-413f-8b31-a996047a434b/84662bc9-aa4f-4f0d-8756-174283206cf9"
+        (path "/9151f981-b383-4946-8df4-92ef46ef2206/b9b5a9b9-9a45-4bb4-8a5d-f3809553447a/9407dcb2-4240-4949-9fc7-e511c818f8d4"
           (reference "U401") (unit 1)
         )
       )
