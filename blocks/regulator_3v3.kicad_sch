@@ -235,7 +235,7 @@
     (pin "2" (uuid 24936d44-8096-48d7-87c9-b6b60e97c2be))
     (instances
       (project "Precision23"
-        (path "/9151f981-b383-4946-8df4-92ef46ef2206/b9b5a9b9-9a45-4bb4-8a5d-f3809553447a/b677ca37-64a4-4c57-a7aa-64d766dbf7fc"
+        (path "/9151f981-b383-4946-8df4-92ef46ef2206/9f66be35-2744-413f-8b31-a996047a434b/24c60a37-33c7-45d6-a04e-0fe066b21c96"
           (reference "C601") (unit 1)
         )
       )
@@ -295,7 +295,7 @@
     (pin "2" (uuid 2fc08006-7e4a-413a-9164-54fbbae6d95b))
     (instances
       (project "Precision23"
-        (path "/9151f981-b383-4946-8df4-92ef46ef2206/b9b5a9b9-9a45-4bb4-8a5d-f3809553447a/b677ca37-64a4-4c57-a7aa-64d766dbf7fc"
+        (path "/9151f981-b383-4946-8df4-92ef46ef2206/9f66be35-2744-413f-8b31-a996047a434b/24c60a37-33c7-45d6-a04e-0fe066b21c96"
           (reference "C605") (unit 1)
         )
       )
@@ -349,7 +349,7 @@
     (pin "5" (uuid 4777de0c-73ac-4913-929c-4a383aaf28f2))
     (instances
       (project "Precision23"
-        (path "/9151f981-b383-4946-8df4-92ef46ef2206/b9b5a9b9-9a45-4bb4-8a5d-f3809553447a/b677ca37-64a4-4c57-a7aa-64d766dbf7fc"
+        (path "/9151f981-b383-4946-8df4-92ef46ef2206/9f66be35-2744-413f-8b31-a996047a434b/24c60a37-33c7-45d6-a04e-0fe066b21c96"
           (reference "U601") (unit 1)
         )
       )
