@@ -4,6 +4,7 @@
 *.dcm
 __pycache__/
 *.pyc
+fp_info_cache
 
 
 

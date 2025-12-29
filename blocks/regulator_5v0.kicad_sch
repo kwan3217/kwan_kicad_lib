@@ -204,7 +204,7 @@
   (symbol (lib_id "Device:C_Small") (at 114.3 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3ee55000-41df-418c-bb2c-2e37952b08b4)
-    (property "Reference" "C501" (at 116.6368 104.2416 0)
+    (property "Reference" "C401" (at 116.6368 104.2416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 116.6368 106.553 0)
@@ -234,6 +234,11 @@
     (pin "1" (uuid f90caa5f-5f42-45ad-a609-2978101a199b))
     (pin "2" (uuid 24936d44-8096-48d7-87c9-b6b60e97c2be))
     (instances
+      (project "Naninator32u4"
+        (path "/ba1a019e-3acf-4680-bf69-4a14e392b0f8/d4b1b9f9-28cb-4ace-a8ab-5f1ba42d74a8"
+          (reference "C401") (unit 1)
+        )
+      )
       (project "shipometer"
         (path "/ba8024d5-8c9d-4001-9766-31acf13004f5/9cdef0f4-d69e-4ec7-af65-50b2b694ea2b"
           (reference "C501") (unit 1)
@@ -253,7 +258,7 @@
   (symbol (lib_id "Device:C_Small") (at 144.78 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 96f7b0cd-69bd-455c-9c22-c792858b362b)
-    (property "Reference" "C505" (at 147.1168 108.0516 0)
+    (property "Reference" "C405" (at 147.1168 108.0516 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 147.1168 110.363 0)
@@ -292,6 +297,11 @@
     (pin "1" (uuid fac06a88-1c67-4350-94ae-76401d4721ff))
     (pin "2" (uuid 2fc08006-7e4a-413a-9164-54fbbae6d95b))
     (instances
+      (project "Naninator32u4"
+        (path "/ba1a019e-3acf-4680-bf69-4a14e392b0f8/d4b1b9f9-28cb-4ace-a8ab-5f1ba42d74a8"
+          (reference "C405") (unit 1)
+        )
+      )
       (project "shipometer"
         (path "/ba8024d5-8c9d-4001-9766-31acf13004f5/9cdef0f4-d69e-4ec7-af65-50b2b694ea2b"
           (reference "C505") (unit 1)
@@ -311,7 +321,7 @@
   (symbol (lib_id "KwanSystems:ADP122") (at 129.54 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fd7d0499-f685-4baa-9f1b-19c98075cbca)
-    (property "Reference" "U501" (at 123.19 91.44 0)
+    (property "Reference" "U401" (at 123.19 91.44 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TCR2EF 5.0V" (at 144.78 91.44 0)
@@ -344,6 +354,11 @@
     (pin "4" (uuid 6369864f-cef2-4026-93c3-52ef35b6e684))
     (pin "5" (uuid 4777de0c-73ac-4913-929c-4a383aaf28f2))
     (instances
+      (project "Naninator32u4"
+        (path "/ba1a019e-3acf-4680-bf69-4a14e392b0f8/d4b1b9f9-28cb-4ace-a8ab-5f1ba42d74a8"
+          (reference "U401") (unit 1)
+        )
+      )
       (project "shipometer"
         (path "/ba8024d5-8c9d-4001-9766-31acf13004f5/9cdef0f4-d69e-4ec7-af65-50b2b694ea2b"
           (reference "U501") (unit 1)
