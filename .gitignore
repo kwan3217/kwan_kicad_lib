@@ -5,6 +5,7 @@
 __pycache__/
 *.pyc
 fp_info_cache
+*.orig
 
 
 
